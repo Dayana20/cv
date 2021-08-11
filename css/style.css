@@ -10,7 +10,8 @@
 }
 
 body{
-    background-color: #EAE3E3;
+    background-color: #363333;
+    /* background-color: #EAE3E3; */
 }
 
 #Intro #first-txt{
@@ -62,7 +63,9 @@ body{
 }
 
 .circlePink{
-    width:100%;
+    position: relative;
+    left: 10%;
+    width:80%;
     border-radius:50px;
     font-size:20px;
     color:black;
@@ -71,7 +74,9 @@ body{
     background: #ffd6d6;
 }
 .circleBlue{
-    width:100%;
+    position: relative;
+    left: 10%;
+    width:80%;
    
     border-radius:50px;
     font-size:20px;
@@ -82,7 +87,9 @@ body{
 }
 
 .circlePurple{
-    width:100%;
+    position: relative;
+    left: 10%;
+    width:80%;
    
     border-radius:50px;
     font-size:20px;
@@ -93,7 +100,9 @@ body{
 }
 
 .circleYellow{
-    width:100%;
+    position: relative;
+    left: 10%;
+    width:80%;
    
     border-radius:50px;
     font-size:20px;
@@ -147,9 +156,8 @@ body{
 
 /* Nav */
 #nav{
-    background-color: #EAE3E3;
+    background-color: #d7c7e9;
     color: black;
-    width: 100%;
     padding: 1em;
     border-top-left-radius: 0.25em;
     border-top-right-radius: 0.25em;
@@ -161,3 +169,7 @@ body{
     display: inline-block;
 }
 
+.navs{
+    background-color: #d7c7e9;
+
+}
