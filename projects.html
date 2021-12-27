@@ -1,26 +1,103 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="css/style.css">
 <html>
     <head>
         <title>
-           Recent Projects
+            Welcome To Day's
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style3.css">
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+        <script src="p5.js"></script>
     </head>
     <body>
-        <nav id="nav", class="nav">
-            <li><a href="index.html">Home</a></li>         
-            <li><a href="projects.html">Projects</a></li>
-        </nav>
-        <!--Current Projects-->
-        <section id="Current" class="main">
-            <div class="circlePurple">
-                <h2 style="color: black;">Projects</h2>
-                <p>RPS <br> Using OpenCV and VS Code, I started building a one player game in which you play rock,paper, or scissors with the computer </p>
-                <img class = "RPS" src="css/images/black cat.png" >
-                <p>Snake Game <br> Using C++, I created a simple snake game in which it uses the users input, e.g. up and down arrows</p>
-                <img class = "RPS" src="css/images/black cat.png" >
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler ml-auto navbar-light bg-light" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">About</a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Future</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="connect.html">Connect</a>
+                </li>
+              </ul>
             </div>
-        </section>
+          </nav>
+        
+        <div id="technical">
+            <div id="sG">
+                <b>Snake Game Using MediaPipe</b>
+                <p>I wanted to recreate the snake game but instead of using keys, it would use your camera and hand movements to control the snake.
+                   <br>
+                   Used: Github,C++,MediaPipe
+                   <br>
+                   <button>DEMO</button>
+                </p>
+                
+            </div>
+            <div id="bS">
+                <b>BookShelf</b>
+                <p>Provide users with a website that would allow them to get their books at the most affordable price.
+                   <br>
+                   Used: Multiple APIs, Github, Python, HTML/CSS
+                   <br>
+                   Role: Full Stack
+                   <br>
+                   <a href="">Website</a>
+                </p>
+                
+            </div>
+            <div id="ecua">
+                <b>A Trip To Ecuador</b>
+                <p>A small scaverger hunt game taking place in Ecuador.
+                    <br>
+                    Used: Github, HTML/CSS, JS
+                    <br>
+                    <a href="">Website</a>
+                </p>
+                
+            </div>
+        </div>
+        <div id="design">
+            <div id="3D">
+                <b>Spongebob's House</b>
+                <img src="">
+                <p>Used: Maya</p>
+                <br>
+                <b>King From The Owl House</b>
+                <br>
+                <img src="images/king.jpg">
+                <p>Used: Maya</p>
+                <br>
+                <!-- resize image -->
+                <b>Chilly Willy</b>
+                <br>
+                <img src="images/cw.jpg">
+                <p>Used: ZBrush</p>
+            </div>
+        </div>
+        <div id="photography">In Progress</div>
+        <div id="educational">In Progress</div>
     </body>
 </html>
