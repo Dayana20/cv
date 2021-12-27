@@ -1,88 +1,108 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="css/style.css">
 <html>
     <head>
         <title>
             Welcome To Day's
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style3.css">
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+        <script src="p5.js"></script>
     </head>
     <body>
-        <div class=navs>
-        <nav id="nav", class="nav">
-            <li><a href="index.html">Home</a></li>           
-            <li><a href="projects.html">Projects</a></li>
-        </nav>
-        
-        <!--Intro Meet Game-->
-        <img class = "octogreet" src="css/images/octo greet.GIF">
-        <div id="Intro",class="Intro"> 
-            <div class="circleWhite">
-                <div id="first-txt", class = "first-txt">Hi There! </div>
-                
-                <div id="second-txt", class = "second-txt">My Name Is Dayana Alejandro </div>
+        <!-- https://getbootstrap.com/docs/4.0/components/navbar/ -->
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler ml-auto navbar-light bg-light" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown mr-auto">
+                  <a class="nav-link  dropdown-toggle" href="projects.html" data-bs-toggle="dropdown">
+                    Projects
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Techical</a>
+                    <a class="dropdown-item" href="#">Design</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <a class="dropdown-item" href="#">Photography</a>
+                    <a class="dropdown-item" href="#">Educational</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Connect</a>
+                </li>
+              </ul>
             </div>
-        </div>
-        <nav id="nav", class="nav">
-            <li><a href="#About">About</a></li> 
-            <li><a href="#Skills">Skills</a></li>
-            <li><a href="#Hobbies">Random</a></li>
-        </nav>
-        </div>
-        <!--Main-->
-        <div id="main">            
-            <!--About-->
-            <section id="About" class="main">
-                <div class="circlePink"> 
-                    <h2 style="color: black;">About Me</h2>
-                    <p> I am a student at NYU Tandon School of Engineering. My major is computer science and I am pursuing a minor in Integrated Digital Media.
-                        I am 20 years old and have a deep passion for creating things, either through code or with random supplies! Yes I did have an origami phase. I am someone who is quick to adapt to any environment and great under time pressure as I usually take care of two toddlers.</p>
-                </div>
-            </section>
-            
-            <!--Skills-->
-            <section id="Skills" class="main">
-                <div class="circleYellow">
-                    <h2 style="color: black;">Skills</h2>
-                    <h5>Programming Languages</h5>
-                    <p>Python</p>  
-                    <div class = "container">
-                        <div class = "skills python">90%</div>
-                    </div>
-                    <p>C++</p>
-                    <div class = "container">
-                        <div class = "skills cp">90% </div>
-                    </div>
-                    <p>CSS</p>
-                    <div class = "container">
-                        <div class = "skills css">50% </div>
-                    </div>
-                    
-                    <h5>Other Languages</h5>
-                    <p>Spanish</p>
-                    <div class = "container">
-                        <div class = "skills spanish">100%</div>
-                    </div>
-                    <br>
-                </div>
-            </section>
+          </nav>
+          <div id="intro">
+            Hi There!
+            I am Dayana :)
+          </div>
+          <div id="game">
+            <!-- GAME HERE
+            Press Space To Start -->
+          </div>
 
-            <!--Fun Stuff-->
-            <section id="Hobbies" class="main">
-                <br>
-                <div class="circlePink"> 
-                    <p style="text-align: center;">Books Currently Reading</p>
-                    <div class="bookslide" id=#slide1>
-                        <img class = "RPS" src="css/images/black cat.png" >
-                    </div>
-                    <div class="bookslide" id=#slide2>
-                        <img class = "RPS" src="css/images/background 2.jpg" >
-                    </div>
-                    <div class="bookslide" id=#slide3>
-                        <img class = "RPS" src="css/images/SharedScreenshot.jpg" >
-                    </div>
-                </div>
-            </section>
-        </div>
+          <div id="about">
+            <!-- make everything else dissapear when going down and focusing -->
+            <!-- on each div individually -->
+            <div id="education">
+              NYU Tandon
+              <br>
+              Computer Science 
+              <br>
+              Minor: Integrated Digital Media
+            </div>
+            <!-- put in list later if nothing changes -->
+            <div id="skills">
+              <b>Programming Languages</b>
+              <br>
+              Python
+              <br>
+              C++
+              <br>
+              C
+              <br>
+              <b>Mark Up Languages</b>
+              <br>
+              HTML
+              <br>
+              CSS
+              <br>
+              <b>Languages</b>
+              <br>
+              English
+              <br>
+              Spanish
+              <br>
+              <b>Modeling</b>
+              <br>
+              Maya
+              <br>
+              ZBrush
+              <br>
+              <b>Other</b>
+              <br>
+              Github
+              <br>
+              Git
+              <br>
+              Linux
+            </div>
+          </div>
     </body>
 </html>
