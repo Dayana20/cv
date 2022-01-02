@@ -26,12 +26,6 @@ body{
     text-align: center;
 }
 
-#about{
-    margin-top: 10%;
-    height:20vw;
-    width: auto;
-    text-align: center;
-}
 
 /* https://bootstrap-menu.com/detail-basic-hover.html */
 @media all and (min-width: 992px) {
@@ -39,6 +33,34 @@ body{
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
+
+/* removes list decoration */
+.about_list{
+    list-style: none;
+}
+
+#about{
+    margin-top: 10%;
+    height:20vw;
+    width: auto;
+    text-align: center;
+
+}
+
+#education{
+    width:auto;
+    /* height:45vw; */
+    background-color: cadetblue;
+
+}
+
+#skills{
+    width:auto;
+    /* height:45vw; */
+    background-color: rgb(120, 95, 160);
+
+}
+
 
 /* projects page */
 #technical{

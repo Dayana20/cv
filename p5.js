@@ -14,12 +14,12 @@ function draw() {
   noStroke(); // no border
   // head
   fill(216,191,216);
-  if(mouseIsPressed){
-    var R = random(0,255)
-    var G = random(0,255)
-    var B = random(0,255)
-    fill(R,G,B);
-  }
+  // if(mouseIsPressed){
+  //   var R = random(0,255)
+  //   var G = random(0,255)
+  //   var B = random(0,255)
+  //   fill(R,G,B);
+  // }
   ellipse(mouseX+5, 150, 200,250);
   // arms left
   ellipse(mouseX-18, 300, 40,200);
