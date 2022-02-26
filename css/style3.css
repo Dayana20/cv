@@ -84,3 +84,10 @@ body{
 .fix{
     text-align: center;
 }
+
+#me_art{
+    margin-top: 10vh;
+    display:flex;
+    justify-content: center;
+
+}
