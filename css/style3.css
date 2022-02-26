@@ -50,15 +50,17 @@ body{
 #education{
     width:auto;
     /* height:45vw; */
-    background-color: cadetblue;
+    color: rgb(120, 95, 160);
+    /* color: cadetblue; */
+    /* background-color: #d1dfdd; */
 
 }
 
 #skills{
     width:auto;
     /* height:45vw; */
-    background-color: rgb(120, 95, 160);
-
+    color: rgb(120, 95, 160);
+    /* background-color: #d1dfdd; */
 }
 
 
@@ -70,5 +72,11 @@ body{
     text-align: center;
 }
 #con{
+    text-align: center;
+}
+
+
+#mtcs{
+    margin-top: 20%;
     text-align: center;
 }
