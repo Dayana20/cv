@@ -18,9 +18,8 @@
         <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
         <script src="p5.js"></script>
     </head>
-    <body id="index_body">
+    <body>
         <!-- https://getbootstrap.com/docs/4.0/components/navbar/ -->
-        <!--  
         <nav class="navbar navbar-expand-lg">
             <button class="navbar-toggler ml-auto navbar-light bg-light" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -28,6 +27,9 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
                 <li class="nav-item dropdown mr-auto">
                   <a class="nav-link" href="projects.html" data-bs-toggle="dropdown">
                     Projects
@@ -37,9 +39,6 @@
                     <a class="dropdown-item" href="projects.html#design">Design</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="home.html">About</a>
-                  </li>   
               </ul>
 
               <ul class="navbar-nav ml-auto">
@@ -49,15 +48,44 @@
               </ul>
             </div>
           </nav>
-          -->
-
-          <div class="home">
-            <div class="fix">
-              Hi There!
-              I'm <a href="home.html">Dayana</a>.
+ 
+          <div class="about_div">
+            <!-- About Info -->
+            <div id="about">
+              <!-- make everything else dissapear when going down and focusing -->
+              <!-- on each div individually -->
+              <div id="about_sub">
+                <ul class="about_list">
+                  <li><b>A Couple Things About Me</b></li>
+                  <li>First-Gen Latina</li>
+                  <li>Student At NYU Tandon</li>
+                  <li>Major In Computer Science</li>
+                  <li>Minor In Integrated Digital Media</li>
+                </ul>
+              </div>
+              <!-- put in list later if nothing changes -->
+              <div id="about_sub">
+                <ul class="about_list">
+                  <li><b>Programming Languages</b></li>
+                  <li>Python, C++, C, Java</li>
+                  <li><b>Mark Up Languages</b></li>
+                  <li>HTML, CSS</li>
+                  <li><b>Languages</b></li>
+                  <li>English, Spanish</li>
+                  <li><b>Design</b></li>
+                  <li>Maya, ZBrush</li>
+                  <li><b>Tools</b></li>
+                  <li>Github, Git, Linux, Hadoop</li>
+                </ul>
+              </div>
             </div>
-          </div>
-          
 
+          </div>
+          <!-- Game Here 
+          <div id="me_art"><img src="images/pixel_char.png"></div>
+          -->
+          <!-- <div id="game"></div> -->
+
+          
     </body> 
 </html>

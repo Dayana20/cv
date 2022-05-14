@@ -7,16 +7,40 @@ body{
 /* nav bar */
 .nav-link{
     /* font-family: 'Press Start 2P', cursive; */
-    color: rebeccapurple;
+    color: black;
 }
 
 .nav-link:hover{
-    color: red;
+    color: rebeccapurple;
+    align-items: right;
+    text-decoration: underline;
 }
 
-#intro{
+#index_body{
+    margin-top: 10%;
+}
+
+/* intro */
+.home{
     font-family: 'Press Start 2P', cursive;
-    text-align: center;
+    /* Full height */
+    height: 100vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about_div{
+    /* Full height */
+    height: 100vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 #game{
@@ -47,7 +71,7 @@ body{
 
 }
 
-#education{
+#about_sub{
     width:auto;
     /* height:45vw; */
     color: rgb(120, 95, 160);
@@ -55,14 +79,6 @@ body{
     /* background-color: #d1dfdd; */
 
 }
-
-#skills{
-    width:auto;
-    /* height:45vw; */
-    color: rgb(120, 95, 160);
-    /* background-color: #d1dfdd; */
-}
-
 
 /* projects page */
 #technical{
