@@ -1,7 +1,13 @@
 /* index page */
 body{
     background-color: #eff7f6;
-    /* background-color: red; */
+    /* border: 2px solid red; */
+    margin:0%;
+}
+
+footer{
+    height:0;
+    text-align: center;
 }
 
 /* nav bar */
@@ -16,32 +22,53 @@ body{
     text-decoration: underline;
 }
 
-#index_body{
-    margin-top: 10%;
+#nv{
+    position: fixed;
+    width: 100%;
 }
 
-/* intro */
-.home{
-    font-family: 'Press Start 2P', cursive;
+/* https://bootstrap-menu.com/detail-basic-hover.html */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+.left{
+    /* position: absolute; */
+    right:0;
+    align-items: right;
+}
+
+#home_text{
+    height: 100vh; 
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    margin: 0;
+}
+
+.about_div{
     /* Full height */
     height: 100vh; 
 
     /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
 }
 
-#about_div{
-    /* Full height */
-    height: 100vh; 
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+/* removes list decoration */
+.about_list{
+    list-style: none;
 }
+
 
 #game{
     height:40vw;
@@ -51,43 +78,13 @@ body{
 }
 
 
-/* https://bootstrap-menu.com/detail-basic-hover.html */
-@media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}
-
-/* removes list decoration */
-.about_list{
-    list-style: none;
-}
-
-#about{
-    margin-top: 10%;
-    height:20vw;
-    width: auto;
-    text-align: center;
-
-}
-
-#about_sub{
-    width:auto;
-    /* height:45vw; */
-    color: rgb(120, 95, 160);
-    /* color: cadetblue; */
-    /* background-color: #d1dfdd; */
-
-}
+/* ---------------------------------------------------- */
 
 /* projects page */
 #technical{
     text-align: center;
 }
 #design{
-    text-align: center;
-}
-#con{
     text-align: center;
 }
 
@@ -97,9 +94,6 @@ body{
     text-align: center;
 }
 
-.fix{
-    text-align: center;
-}
 
 #me_art{
     margin-top: 10vh;
