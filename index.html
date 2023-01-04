@@ -1,97 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>
-            Welcome To Day's
-        </title>
+        <!-- <title>Welcome To Day's</title> -->
+        <title>Hihihi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/style3.css">
         <meta charset="utf-8">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-
-        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
-        <script src="p5.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
-        <!-- https://getbootstrap.com/docs/4.0/components/navbar/ -->
-        <div id="nv">
-          <nav class="navbar navbar-expand-lg">
-              <button class="navbar-toggler ml-auto navbar-light bg-light" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item dropdown mr-auto">
-                    <a class="nav-link" href="projects.html" data-bs-toggle="dropdown">
-                      Projects
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="projects.html#technical">Techical</a>
-                      <a class="dropdown-item" href="projects.html#design">Design</a>
-                      </div>
-                  </li>
-                </ul>
-                <!-- <ul class="navbar-nav ml-auto">
-                  <li class="nav-item left">
-                    <a class="nav-link" href="connect.html">Connect</a>
-                  </li>
-                </ul> -->
-              </div>
-            </nav>
-          </div>
+        <div id="greet">
+            <div class="intro">
+                <h1>Hi There! I'm Dayana :)</h1>
+            </div>
+        </div>
 
- 
-          <div id="home_text">
-              Hi There!
-              I'm Dayana.
-          </div>
-
-          <!-- About Info -->
-          <!-- make everything else dissapear when going down and focusing -->
-          <!-- on each div individually -->
-          <div id="about" class="about_div">
-              <ul class="about_list">
-                <li><b>A Couple Things About Me</b></li>
+        <div id="aboutMe">
+            <ul id="aboutList">
+                <li><h4>A Couple Things About Me</h4></li>
                 <li>First-Gen Latina</li>
                 <li>Student At NYU Tandon</li>
                 <li>Major In Computer Science</li>
                 <li>Minor In Integrated Digital Media</li>
               </ul>
+        </div>
+
+        <div id="skillsList">
+            <ul class="skillsSubList">
+              <li><h4>Programming Languages</h4></li>
+              <li>Python</li>
+              <li>C++</li>
+              <li>C</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+            </ul>
+
+            <ul class="skillsSubList">
+                <li><h4>Mark Up Languages</h4></li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+
+            <ul class="skillsSubList">
+                <li><h4>Languages</h4></li>
+                <li>English</li>
+                <li>Spanish</li>
+            </ul>
+
+            <ul class="skillsSubList">
+                <li><h4>Tools</h4></li>
+                <li>Github</li>
+                <li>Git</li>
+                <li>Linux</li>
+                <li>Hadoop</li>
+                <li>Jenkins</li>
+            </ul>
+            
+            <ul class="skillsSubList">
+                <li><h4>Design Tools</h4></li>
+                <li>Maya</li>
+                <li>ZBrush</li>
+            </ul>            
           </div>
 
-          <div id="skills" class="about_div">
-            <ul class="about_list">
-              <li><b>Programming Languages</b></li>
-              <li>Python, C++, C, Java</li>
-              <li><b>Mark Up Languages</b></li>
-              <li>HTML, CSS</li>
-              <li><b>Languages</b></li>
-              <li>English, Spanish</li>
-              <li><b>Design</b></li>
-              <li>Maya, ZBrush</li>
-              <li><b>Tools</b></li>
-              <li>Github, Git, Linux, Hadoop</li>
-            </ul>
-          </div>
-          <!-- Game Here 
-          <div id="me_art"><img src="images/pixel_char.png"></div>
-          -->
-          <!-- <div id="game"></div> -->
-          <footer>
-            <br>
-            <h5>Let's Connect</h5>
-            <a href="https://www.linkedin.com/in/DayanaAlejandro/">Linkedln</a>            
-          </footer>
-          
-    </body> 
+          <div id="technical">
+            <h4>Technical</h4>
+            <div class="techItem">
+                <div class="techName">Snake Game Using MediaPipe</div>
+                <div class="techDescription">
+                    I wanted to recreate the snake game but instead of using keys, it would use your camera and hand movements to control the snake.
+                    <br>
+                    Used: Github, C++, MediaPipe
+                    <br>
+                    Video Here
+                </div>
+                
+            </div>
+            <div class="techItem">
+                <div class="techName">BookShelf</div>
+                <div class="techDescription">Provide users with a website that would allow them to get their books at the most affordable price.
+                   <br>
+                   Used: Multiple APIs, Github, Python, HTML/CSS
+                   <br>
+                   Role: Full Stack
+                   <br>
+                   Picture here - Heroku does not offer free deployments anymore
+                </div>
+                
+            </div>
+            <div class="techItem">
+                <div class="techName">GoHome</div>
+                <div class="techDescription">RPG style game developed through GameMaker Studio 2.
+                    <br>
+                    Used: Github, C
+                    <br>
+                    Video To Be Posted Soon
+                </div>
+            </div>
+
+            <div class="techItem">
+                <div class="techName">Weather and Yellow Taxi Tips</div>
+                <div class="techDescription">Researched and analyzed yellow taxi trips and weather in 2015.
+                    <br>
+                    Used: Github, Hadoop, MapReduce, Java
+                    <br>
+                    Sources: NYC Open Data, Weather Underground(git repo)
+                    <br>
+                </div>
+            </div>
+        </div>
+        
+        <div id="design">
+            <h4>Design</h4>
+            <div class="techItem">
+                <div class="techName">
+                    Spongebob's House
+                    <br>
+                    Used: Maya
+                </div>
+                <div class="techDescription"><img src="images/spb.jpg"></div>
+            </div>
+            <div class="techItem">
+                <div class="techName">
+                    King From The Owl House 
+                    <br>
+                    Used: Maya
+                </div>
+                <div class="techDescription"><img src="images/king.jpg"></div>
+            </div>
+            <div class="techItem">
+                <div class="techName">
+                    Chilly Willy
+                    <br>
+                    Used: ZBrush
+                </div>
+                <div class="techDescription"><img src="images/cw.jpg"></div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="rowList">
+                <a class="rowListItem" href="https://www.linkedin.com/in/DayanaAlejandro/">Linkedln</a>   
+                <a class="rowListItem" href="https://github.com/Dayana20">Github</a>
+                <h5>Want to get in touch? <a id="email" href="mailto:da2410@nyu.edu">da2410@nyu.edu</a></h5>
+            </div>         
+        </footer>
+    </body>
 </html>
