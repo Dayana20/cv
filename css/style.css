@@ -11,6 +11,11 @@ h4{
     color: rgb(194, 73, 194);
 }
 
+button{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: small;
+}
 .intro h1 {
     font-family: monospace;
     overflow: hidden; 
@@ -78,8 +83,23 @@ h4{
     width: 15vw;
     font-weight: bolder;
 }
+
 .techDescription{
     width: 50vw;
+}
+
+#design{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.designItem{
+    /* display: flex; */
+    justify-content: center;
+    padding-bottom: 5vh;
 }
 
 .rowList{
@@ -100,4 +120,22 @@ h4{
 #email{
     text-decoration: none;
     color: rgb(194, 73, 194);
+}
+
+/* #image1{
+    display: none;
+}
+
+#image2{
+    display: none;
+}
+
+#image3{
+    display: none;
+} */
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
