@@ -50,9 +50,7 @@ button{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    list-style: none;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    list-style: none;    
 }
 
 .skillsSubList{
@@ -60,14 +58,11 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: auto;
+    padding: 1vw;
 }
 
 #technical{
-    text-align: center;
-    flex-direction: row;
-}
-
-#design{
     text-align: center;
     flex-direction: row;
 }
@@ -76,7 +71,6 @@ button{
     display: flex;
     justify-content:center;
     gap: 200px;
-    /* justify-items: center; */
     text-align: center;
     padding-bottom: 5vh;
 }
@@ -101,7 +95,7 @@ button{
 .designItem{
     /* display: flex; */
     justify-content: center;
-    padding-bottom: 5vh;
+    margin-bottom: 5vh;
 }
 
 .rowList{
@@ -137,7 +131,6 @@ button{
 } */
 
 img {
-    height: 50vh;
     width: 50vw;
     object-fit: contain;
 }
